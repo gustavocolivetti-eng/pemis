@@ -1,0 +1,41 @@
+
+body {
+    margin: 0;
+    background: #111;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+header {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+}
+.logo {
+    height: 120px;
+}
+.products {
+    display: flex;
+    gap: 30px;
+    padding: 20px;
+}
+.product {
+    background: #222;
+    padding: 15px;
+    border-radius: 10px;
+}
+.product img {
+    width: 200px;
+}
+button {
+    margin-top: 10px;
+    padding: 8px 15px;
+    background: #00aaff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.cart {
+    padding: 20px;
+    background: #1a1a1a;
+}
